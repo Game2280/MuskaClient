@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "muska.client.muskaclient.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "muskaclient.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinLivingEntity",
+    "MixinPlayerEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

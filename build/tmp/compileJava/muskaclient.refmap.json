@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "muska/client/muskaclient/mixins/MixinPlayerEntity": {
+      "travel": "Lnet/minecraft/entity/player/PlayerEntity;func_213352_e(Lnet/minecraft/util/math/vector/Vector3d;)V"
+    },
+    "muska/client/muskaclient/mixins/MixinLivingEntity": {
+      "causeFallDamage": "Lnet/minecraft/entity/LivingEntity;func_225503_b_(FF)Z",
+      "hurt": "Lnet/minecraft/entity/LivingEntity;func_70097_a(Lnet/minecraft/util/DamageSource;F)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "muska/client/muskaclient/mixins/MixinPlayerEntity": {
+        "travel": "Lnet/minecraft/entity/player/PlayerEntity;func_213352_e(Lnet/minecraft/util/math/vector/Vector3d;)V"
+      },
+      "muska/client/muskaclient/mixins/MixinLivingEntity": {
+        "causeFallDamage": "Lnet/minecraft/entity/LivingEntity;func_225503_b_(FF)Z",
+        "hurt": "Lnet/minecraft/entity/LivingEntity;func_70097_a(Lnet/minecraft/util/DamageSource;F)Z"
+      }
+    }
+  }
+}
